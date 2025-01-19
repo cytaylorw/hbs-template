@@ -1,6 +1,6 @@
-# Handlebars HTML Merger
+# Handlebars HTML Template
 
-A Node.js project to dynamically merge Handlebars templates with context data and generate HTML files. Static files (CSS, JS, images, etc.) are copied to the output directory, preserving the folder structure.
+A Node.js project to compile Handlebars templates with context data into static HTML files. Static files (CSS, JS, images, etc.) are copied to the output directory, preserving the folder structure.
 
 ## Features
 - Compile `.hbs` templates with Handlebars.
@@ -9,7 +9,13 @@ A Node.js project to dynamically merge Handlebars templates with context data an
 - Logs the process to the console.
 
 ## Project Structure
-handlebars-html-merger/ ├── components/ # Handlebars partials ├── input/ # Input files (templates and static files) ├── output/ # Generated HTML and copied static files ├── data/ # Context data in JSON format ├── index.js # Main script └── .gitignore # Ignored files and folders
+handlebars-html-merger/
+├── components/ # Handlebars partials
+├── input/ # Input files (templates and static files)
+├── output/ # Generated HTML and copied static files
+├── data/ # Context data in JSON format
+├── index.js # Main script
+└── .gitignore # Ignored files and folders
 
 ## Installation
 1. Clone this repository:
@@ -25,3 +31,6 @@ handlebars-html-merger/ ├── components/ # Handlebars partials ├── in
    ```bash
    node index.js
    ```
+
+## Author
+[Taylor Wong](https://github.com/cytaylorw)
