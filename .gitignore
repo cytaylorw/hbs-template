@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.log
+*.tmp
+*.pid
+*.pid.lock
+
+# Output directory (generated files)
+output/
+
+# Input files (private data)
+input/
+components/
+
+# Context data (private)
+data/context.json
+
+# Environment variables
+.env
+
+# Editor-specific settings
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache
+.npm/
+
+# Git-specific files
+*.orig
+
+# Coverage directory (if you use testing frameworks)
+coverage/
+
+# Temporary files
+*.bak
+*.backup
+*.swp
+*~
